@@ -8,5 +8,5 @@ struct User{
 
 service Match{
     i32 add_user(1. User user, 2: string info),
-    i32 remove_user(1: User user, 2. string info),
+    i32 remove_user(1: User user, 2: string info),
 }
